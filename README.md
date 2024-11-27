@@ -49,3 +49,35 @@ python3 manage.py migrate
 ```shell
 python3 manage.py runserver 0.0.0.0:8000
 ```
+
+
+
+# Django Project with Docker
+
+This is a Django project that is set up to run inside Docker containers using Docker Compose.
+
+## Requirements
+
+- Docker
+- Docker Compose
+- Python 3.8 or higher
+- PostgreSQL installed (if not using Docker container)
+
+## Setup and Run the Project
+
+1. **Clone the repository**
+
+   First, clone the project to your local machine:
+
+   ```bash
+   git clone https://your-repository-url.git
+   cd your-project-directory
+   ```
+
+2. **Build and run Docker Compose**
+
+   To build and run the containers, execute the following command in the root of your project directory:
+
+   ```bash
+   docker-compose up --build
+   ```
